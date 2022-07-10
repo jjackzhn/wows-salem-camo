@@ -1,0 +1,31 @@
+	<camouflage>
+		<annotation>Salem unique permOflage block</annotation>
+		<name>camo_permanent_1</name>
+		<targetShip>PASC710_Salem</targetShip>
+		<tiled>false</tiled>
+		<UV>
+			<Tile>1 1</Tile>
+			<Gun>0.62 0.7</Gun>
+			<Director>0.62 0.7</Director>
+			<Plane>0.5 0.5</Plane>
+			<Float>0.5 0.25</Float>
+			<Misc>0.3 0.3</Misc>
+		</UV>
+		<Textures>
+			<DeckHouse>content/gameplay/common/camouflage/textures/ASC023_Salem_1950_DeckHouse_camo_01.dds</DeckHouse>
+			<Hull>content/gameplay/common/camouflage/textures/ASC023_Salem_1950_camo_01.dds</Hull>
+			<Gun>content/gameplay/common/camouflage/textures/blank.dds</Gun> <!-- CHANGED -->
+		</Textures>
+		<colorSchemes>colorSchemeUSNSalem</colorSchemes> <!-- CHANGED -->
+		<colorSchemes>colorSchemeUSNP47</colorSchemes>
+		</camouflage>
+
+        <!-- Add whole block to file -->
+        <colorScheme>
+			<name>colorSchemeUSNSalem</name>
+			<color0>0.143 0.143 0.143 0.784</color0>
+			<color1>0.020 0.020 0.020 1.000</color1>
+			<color2>0.177 0.205 0.216 1.000</color2>
+			<color3>0.300 0.300 0.300 1.000</color3>
+			<colorUI>0.338 0.408 0.486 1.000</colorUI>
+		</colorScheme>
